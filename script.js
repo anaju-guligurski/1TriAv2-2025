@@ -1,4 +1,4 @@
-document.addEventListener('DOMcontentLoaded', function (){
+document.addEventListener('DOMContentLoaded', function (){
     let tamanhoAtualFonte = 1;
 
     const aumentarFonteBotao = document.getElementById('aumentar-fonte');
