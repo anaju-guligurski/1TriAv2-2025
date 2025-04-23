@@ -165,3 +165,30 @@ h2 {
 .opcoes-acessibilidade button{
     margin-bottom: 5px;
 }
+.apresenta-lista{
+    display: none;
+}
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+.alto-contraste header, .alto-contraste footer, .alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+.alto-contraste .nav-link{
+    color: var(--alto-contrate-link);
+}
+.alto-contraste .botao-inicio,.alto-contraste .formulario button,.alto-contraste .btn-primary{
+    background-color: var(--alto-contrate-link);
+    color: var(--alto-contraste-fundo);
+}
+.alto-contraste #tropicalia{
+    background: none;
+}
+.alto-contraste #galeria{
+    background: none;
+}
+.alto-contraste #fundo-galeria{
+    background: none;
+}

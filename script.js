@@ -9,6 +9,10 @@ document.addEventListener('DOMContentLoaded', function (){
             }
         }
     })
+    const alternacontraste = document.getElementById('alternacontraste')
+    alternacontraste.addEventListener('click', function(){
+        document.body.classList.toggle('alto-contraste')
+    })
     let tamanhoAtualFonte = 1;
 
     const aumentarFonteBotao = document.getElementById('aumentar-fonte');
